@@ -1,6 +1,6 @@
 ## riak-ql
 
-A small query language atop the excellent JSONSelect for Riak Map phases.
+A small query language atop the excellent [JSONSelect](http://jsonselect.org/) for Riak Map phases.
 
 ### Sample usage with riak-js
 
@@ -42,7 +42,7 @@ Everything is optional, which means that even an empty query will also work, ret
 
 It is a very quick hack, not a proper parser.
 
-Using the `where ` or `&&` literals for other than the indeded use will cause trouble.
+Using the `where ` or `&&` literals for other than the intended use will cause trouble.
 
 Not recommended for production use.
 
