@@ -587,7 +587,7 @@
   
     var data = Riak.mapValuesJson(values)[0];
 
-    if (!typeof arg == "string") {
+    if (typeof arg !== "string") {
       throw new Error("Argument must be a string");
     }
   
